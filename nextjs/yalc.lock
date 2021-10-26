@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "packages": {
+    "jotai-query-toolkit": {
+      "signature": "5a61378a4414324996f0811cd44a0478",
+      "file": true
+    },
+    "micro-stacks": {
+      "signature": "a9668095cf13f044d06cc952f1490616",
+      "file": true,
+      "replaced": "^0.0.35"
+    }
+  }
+}

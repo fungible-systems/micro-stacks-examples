@@ -8,16 +8,28 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "prettier": "@stacks/prettier-config",
   "dependencies": {
-    "micro-stacks": "^0.0.35",
+    "cookie-cutter": "^0.2.0",
+    "jotai": "^1.4.0",
+    "jotai-query-toolkit": "file:.yalc/jotai-query-toolkit",
+    "micro-stacks": "file:.yalc/micro-stacks",
     "next": "11.1.2",
+    "nookies": "^2.5.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@stacks/prettier-config": "^0.0.9",
+    "@stacks/stacks-blockchain-api-types": "^0.70.1",
     "@types/react": "17.0.31",
     "eslint": "8.0.1",
     "eslint-config-next": "11.1.2",
+    "prettier": "^2.4.1",
     "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "jotai-query-toolkit": "file:.yalc/jotai-query-toolkit",
+    "micro-stacks": "file:.yalc/micro-stacks"
   }
 }
