@@ -51,11 +51,12 @@ export const makeGetServerSideProps = (
   })(async context => {
     const serverProps = (await getServerSideProps?.(context)) || {};
     const session = stacksSessionFromCtx(context);
+    const props = {
+      ...session,
+      ...serverProps,
+    }
     return {
-      props: {
-        ...session,
-        ...serverProps,
-      },
+      props,
     };
   });
 };

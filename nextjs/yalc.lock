@@ -2,11 +2,11 @@
   "version": "v1",
   "packages": {
     "jotai-query-toolkit": {
-      "signature": "5a61378a4414324996f0811cd44a0478",
+      "signature": "be4aa2181c74a9652f57e0e1de7bc3db",
       "file": true
     },
     "micro-stacks": {
-      "signature": "a9668095cf13f044d06cc952f1490616",
+      "signature": "2650df31e99cdd8f2c219aa7759874aa",
       "file": true,
       "replaced": "^0.0.35"
     }

@@ -4,6 +4,9 @@ import { wrapWithMicroStacks } from '../common/wrap-with-micro-stacks';
 import { useCurrentAccountBalances, useCurrentStxAddress } from 'micro-stacks/react';
 import { SafeSuspense } from '../components/safe-suspense';
 import { makeGetServerSideProps } from '../common/make-get-server-side-props';
+import { WalletConnectButton } from '../components/wallet-connect-button';
+import { Devtools } from '../components/devtools';
+import { useNetwork } from 'micro-stacks/react';
 
 const withMicroStacks = wrapWithMicroStacks({
   authOptions: {
@@ -18,7 +21,10 @@ const withMicroStacks = wrapWithMicroStacks({
 });
 
 const Component = () => {
+  const { network } = useNetwork();
+  const url = network.getInfoUrl();
   const [data] = useCurrentAccountBalances();
+
   return (
     <pre>
       <code>{JSON.stringify(data, null, '  ')}</code>
@@ -26,20 +32,24 @@ const Component = () => {
   );
 };
 
-const Home: NextPage = () => {
+const MainArea = () => {
   const stxAddress = useCurrentStxAddress();
-  if (!stxAddress) return null;
+  if (!stxAddress) return <WalletConnectButton />;
   return (
     <SafeSuspense fallback={<>loading</>}>
       <Component />
     </SafeSuspense>
   );
 };
+const Home: NextPage = () => {
+  return (
+    <>
+      <Devtools />
+      <MainArea />
+    </>
+  );
+};
 
-export const getServerSideProps = makeGetServerSideProps([
-  'currentAccountTransactions',
-  'currentAccountMempoolTransactions',
-  'currentAccountNames',
-]);
+export const getServerSideProps = makeGetServerSideProps(['currentAccountBalances']);
 
 export default withMicroStacks(Home);
