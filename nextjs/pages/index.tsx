@@ -1,46 +1,9 @@
-import type { NextPage } from 'next';
-import { resetSessionCookies } from '../common/cookies';
-import { wrapWithMicroStacks } from '../common/wrap-with-micro-stacks';
-import { useCurrentAccountBalances, useCurrentStxAddress } from 'micro-stacks/react';
-import { SafeSuspense } from '../components/safe-suspense';
-import { makeGetServerSideProps } from '../common/make-get-server-side-props';
-import { WalletConnectButton } from '../components/wallet-connect-button';
+import { wrapWithMicroStacks, makeGetServerSideProps } from '@micro-stacks/nextjs';
 import { Devtools } from '../components/devtools';
-import { useNetwork } from 'micro-stacks/react';
+import { MainArea } from '../components/main-area';
 
-const withMicroStacks = wrapWithMicroStacks({
-  authOptions: {
-    appDetails: {
-      name: 'test app',
-      icon: 'icon',
-    },
-    onSignOut() {
-      resetSessionCookies();
-    },
-  },
-});
+import type { NextPage } from 'next';
 
-const Component = () => {
-  const { network } = useNetwork();
-  const url = network.getInfoUrl();
-  const [data] = useCurrentAccountBalances();
-
-  return (
-    <pre>
-      <code>{JSON.stringify(data, null, '  ')}</code>
-    </pre>
-  );
-};
-
-const MainArea = () => {
-  const stxAddress = useCurrentStxAddress();
-  if (!stxAddress) return <WalletConnectButton />;
-  return (
-    <SafeSuspense fallback={<>loading</>}>
-      <Component />
-    </SafeSuspense>
-  );
-};
 const Home: NextPage = () => {
   return (
     <>
@@ -49,6 +12,15 @@ const Home: NextPage = () => {
     </>
   );
 };
+
+const withMicroStacks = wrapWithMicroStacks({
+  authOptions: {
+    appDetails: {
+      name: 'test app',
+      icon: 'icon',
+    },
+  },
+});
 
 export const getServerSideProps = makeGetServerSideProps(['currentAccountBalances']);
 

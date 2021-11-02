@@ -1,10 +1,13 @@
 import { AuthOptions, defaultStorageAdapter } from 'micro-stacks/connect';
 import { setSessionCookies } from './cookies';
-import { NextPage } from 'next';
-import { withInitialQueryData } from 'jotai-query-toolkit/nextjs';
-import { AppProviderAtomBuilder, buildMicroStacksAtoms } from 'micro-stacks/react';
+import { AppProviderAtomBuilder } from '@micro-stacks/react';
+import { buildMicroStacksAtoms } from '@micro-stacks/nextjs';
+import { useGetProviderInitialValues } from './test.hook';
 
-export function wrapWithMicroStacks(options: AppProviderAtomBuilder) {
+export const useMicroStacks = (
+  options: AppProviderAtomBuilder,
+  props: Record<string, unknown> = {}
+) => {
   const authOptions: AuthOptions = {
     ...options.authOptions,
     onFinish(payload) {
@@ -12,13 +15,12 @@ export function wrapWithMicroStacks(options: AppProviderAtomBuilder) {
       setSessionCookies(payload);
     },
   };
-  return (page: NextPage) =>
-    withInitialQueryData(
-      page,
-      buildMicroStacksAtoms({
-        authOptions,
-        network: options.network,
-        storageAdapter: options.storageAdapter || defaultStorageAdapter,
-      })
-    );
-}
+  return useGetProviderInitialValues(
+    props,
+    buildMicroStacksAtoms({
+      authOptions,
+      network: options.network,
+      storageAdapter: options.storageAdapter || defaultStorageAdapter,
+    })
+  );
+};
