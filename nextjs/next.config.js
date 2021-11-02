@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: false,
   experimental: {
-    esmExternals: true,
+    esmExternals: false,
   },
   webpack(config, { dev, isServer, ...options }) {
     const fallback = config.resolve.fallback || (config.resolve.fallback = {});
