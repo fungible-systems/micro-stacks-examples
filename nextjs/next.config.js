@@ -1,17 +1,12 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: false,
+  reactStrictMode: true,
   experimental: {
     esmExternals: false,
   },
-  webpack(config, { dev, isServer, ...options }) {
+  webpack(config, { isServer }) {
     const fallback = config.resolve.fallback || (config.resolve.fallback = {});
-
-    if (!isServer) {
-      fallback['crypto'] = false;
-      fallback['stream'] = false;
-    }
-
+    if (!isServer) fallback['crypto'] = fallback['stream'] = false;
     return config;
   },
 };

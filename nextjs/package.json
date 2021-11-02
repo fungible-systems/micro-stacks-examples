@@ -10,26 +10,19 @@
   },
   "prettier": "@stacks/prettier-config",
   "dependencies": {
-    "@micro-stacks/nextjs": "0.0.2",
-    "cookie-cutter": "^0.2.0",
-    "jotai": "1.4.2",
-    "jotai-query-toolkit": "0.1.15",
-    "micro-stacks": "0.1.0",
+    "@micro-stacks/nextjs": "0.0.3",
     "next": "12.0.2",
-    "noble-hashes": "^0.3.1",
-    "nookies": "^2.5.2",
-    "proxy-memoize": "^0.3.7",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@babel/template": "^7.16.0",
-    "@stacks/prettier-config": "^0.0.9",
-    "@stacks/stacks-blockchain-api-types": "^0.70.1",
+    "@babel/template": "7.16.0",
+    "@stacks/prettier-config": "0.0.9",
+    "@stacks/stacks-blockchain-api-types": "0.70.1",
     "@types/react": "17.0.31",
     "eslint": "8.0.1",
     "eslint-config-next": "11.1.2",
-    "prettier": "^2.4.1",
+    "prettier": "2.4.1",
     "typescript": "4.4.4"
   }
 }

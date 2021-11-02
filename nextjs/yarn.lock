@@ -71,7 +71,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/template@^7.16.0":
+"@babel/template@7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.16.0.tgz#d16a35ebf4cd74e202083356fab21dd89363ddd6"
   integrity sha512-MnZdpFD/ZdYhXwiunMqqgyZyucaYsbL0IrjoGjaVhGilz+x8YB++kRfygSOIj1yOtWKPlx7NBp+9I1RQSgsd5A==
@@ -145,13 +145,13 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@micro-stacks/nextjs@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@micro-stacks/nextjs/-/nextjs-0.0.2.tgz#f6a1aab6cc96b24b8603e5b10a4992babc5b9660"
-  integrity sha512-mVziwymsJxb/L5of7fcPRdJjAzjl2i7sUfYm6kzf60ctnPZPurDy9U1oKfC4ImA/qZrAnwqowC0RdDCM9gPeVg==
+"@micro-stacks/nextjs@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@micro-stacks/nextjs/-/nextjs-0.0.3.tgz#ba63dc8f114ffa1252ad49879c81e7b570c731c7"
+  integrity sha512-HDPmmnw1s7+iMUlsn4UzO3yU8W3KMncnI07vwYMx0ThfZWhJ2gvb8uwvnA0Rj4x4aFdRm2XHS94zqbz97U816A==
   dependencies:
-    "@micro-stacks/query" "0.0.2"
-    "@micro-stacks/react" "0.0.2"
+    "@micro-stacks/query" "0.0.3"
+    "@micro-stacks/react" "0.0.3"
     jotai "1.4.2"
     jotai-query-toolkit "0.1.15"
     micro-stacks "0.1.0"
@@ -160,12 +160,12 @@
     react "^17.0.2"
     react-dom "^17.0.2"
 
-"@micro-stacks/query@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@micro-stacks/query/-/query-0.0.2.tgz#841eb50491b67eec6dbdcc783482d62682fcd717"
-  integrity sha512-1Qd9LBDtXNYZGigzkm9CPB9WgMZOvv3svLXkze8E+XstbBxpn+5vTVwUVGIq94FI1NzWpAq5xzOjVJC2FWKlIg==
+"@micro-stacks/query@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@micro-stacks/query/-/query-0.0.3.tgz#d657784061298986b49bd4abb0c59454eba8f9f4"
+  integrity sha512-yHbwyfTnyEeVcfKGqqkC8RpvXgWjAVfbpuncbXrsLuXnQsfIOQYRG14eooGcTeRggQcNzZQqCJTaaJms8975Aw==
   dependencies:
-    "@micro-stacks/react" "0.0.2"
+    "@micro-stacks/react" "0.0.3"
     jotai "1.4.2"
     jotai-query-toolkit "0.1.15"
     micro-stacks "0.1.0"
@@ -173,10 +173,10 @@
     react-dom "17.0.2"
     react-query "^3.30.0"
 
-"@micro-stacks/react@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@micro-stacks/react/-/react-0.0.2.tgz#7b506a405e40b6920045f31e1c247287f9751f48"
-  integrity sha512-OsuXdhcjnxJYlqi2HW2oCrFHbjkyQXurjs3tO/lzGXABihFiV86gybDeqrY/daxHbmzaMKH+L8qy7cqSpwaMMA==
+"@micro-stacks/react@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@micro-stacks/react/-/react-0.0.3.tgz#c57fd7b15fb384e5193e81b64c7c8d512a63b712"
+  integrity sha512-UwD/nMpEAAhiMHOZRe0sbF/JEG665W4sKCiY2z/revK4bQgLoQZnmmWyMIYnmHxioLDU8RU7VCnEzmTHkM53UQ==
   dependencies:
     jotai "1.4.2"
     micro-stacks "0.1.0"
@@ -397,14 +397,14 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.8.tgz#be3e914e84eacf16dbebd311c0d0b44aa1174c64"
   integrity sha512-ZK5v4bJwgXldAUA8r3q9YKfCwOqoHTK/ZqRjSeRXQrBXWouoPnS4MQtgC4AXGiiBuUu5wxrRgTlv0ktmM4P1Aw==
 
-"@stacks/prettier-config@^0.0.9":
+"@stacks/prettier-config@0.0.9":
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/@stacks/prettier-config/-/prettier-config-0.0.9.tgz#aa685cbb83a51e24adc7aebdc69cc5dae49aabab"
   integrity sha512-N+KC3LUL/qSrmjGaFRNaJtBSL1ZBJn5nPEsZf4DpYXDiFhIN1WWDRi79nuuAZD1K6mq+dZWsCwJp8rhI7kLi8w==
   dependencies:
     prettier "2.4.1"
 
-"@stacks/stacks-blockchain-api-types@^0.70.1":
+"@stacks/stacks-blockchain-api-types@0.70.1":
   version "0.70.1"
   resolved "https://registry.yarnpkg.com/@stacks/stacks-blockchain-api-types/-/stacks-blockchain-api-types-0.70.1.tgz#f671b156bd3123ee592804e1d686122eb8063c12"
   integrity sha512-KM+J+954udj+80EuUxD+C/SUsKyGe1tQONM8z3eVSzEwnQi70FF9WVk8j+Dtk6q6TyR6IR2PM13Mj5yMTzRbKQ==
@@ -923,11 +923,6 @@ convert-source-map@1.7.0:
   integrity sha512-4FJkXzKXEDB1snCFZlLP4gpC3JILicCpGbzG9f9G7tGqGCzETQ2hWPrcinA9oU4wtf2biUaEH5065UnMeR33oA==
   dependencies:
     safe-buffer "~5.1.1"
-
-cookie-cutter@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/cookie-cutter/-/cookie-cutter-0.2.0.tgz#5988f598b68c060a00ec8524ad6e6aa193e72244"
-  integrity sha1-WYj1mLaMBgoA7IUkrW5qoZPnIkQ=
 
 cookie@^0.4.1:
   version "0.4.1"
@@ -2341,11 +2336,6 @@ noble-hashes@0.2.2:
   resolved "https://registry.yarnpkg.com/noble-hashes/-/noble-hashes-0.2.2.tgz#f174cc18ba2fd1ee8b416e4da568f6706f00bb34"
   integrity sha512-5wKykPleHvJ8y6htmb4+4ecgHA0n1F4n0xtfMdXjkhqoQsZE9QTp+nriQzss9RQKJ86GUWZwXnq0CM4VW8ApSg==
 
-noble-hashes@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/noble-hashes/-/noble-hashes-0.3.1.tgz#8c6085b779509b09d2f2d2aecce67650fb411d1c"
-  integrity sha512-TpYvlZvM8nGB582H9qQdTCLTNPS4TX9r5gkB4iiCWlO/URrdFJKAKwzwwEcNYPhLrcmCvBF1Nfm25GMbFWEplw==
-
 noble-secp256k1@1.2.14:
   version "1.2.14"
   resolved "https://registry.yarnpkg.com/noble-secp256k1/-/noble-secp256k1-1.2.14.tgz#39429c941d51211ca40161569cee03e61d72599e"
@@ -2630,7 +2620,7 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier@2.4.1, prettier@^2.4.1:
+prettier@2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
@@ -2653,18 +2643,6 @@ prop-types@^15.7.2:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
     react-is "^16.8.1"
-
-proxy-compare@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/proxy-compare/-/proxy-compare-2.0.2.tgz#343e624d0ec399dfbe575f1d365d4fa042c9fc69"
-  integrity sha512-3qUXJBariEj3eO90M3Rgqq3+/P5Efl0t/dl9g/1uVzIQmO3M+ql4hvNH3mYdu8H+1zcKv07YvL55tsY74jmH1A==
-
-proxy-memoize@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/proxy-memoize/-/proxy-memoize-0.3.7.tgz#5df80bb9556a8d2ce263a2cf420798737ab1280e"
-  integrity sha512-5fDsRUvCv4t94wKqhaRH7dgQo+E1IOGPCod4RS+tdbd93Ili36l+AkpYVNt3gfFVUhWiKgI2ir4PorAlixdUjw==
-  dependencies:
-    proxy-compare "2.0.2"
 
 public-encrypt@^4.0.0:
   version "4.0.3"
