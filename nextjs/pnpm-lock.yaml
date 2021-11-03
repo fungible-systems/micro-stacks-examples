@@ -4,7 +4,7 @@ specifiers:
   '@babel/template': 7.16.0
   '@micro-stacks/nextjs': 0.0.4
   '@micro-stacks/query': 0.0.4
-  '@micro-stacks/react': 0.0.4
+  '@micro-stacks/react': 0.0.5
   '@stacks/prettier-config': 0.0.9
   '@stacks/stacks-blockchain-api-types': 0.70.1
   '@types/react': 17.0.31
@@ -22,7 +22,7 @@ specifiers:
 dependencies:
   '@micro-stacks/nextjs': 0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3
   '@micro-stacks/query': 0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3
-  '@micro-stacks/react': 0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3
+  '@micro-stacks/react': 0.0.5_2eab2928f395fc0d28bdf8aaab30a2b3
   jotai-query-toolkit: 0.1.16_4d3c60e353e0597ff58cb71c6190a7dd
   modern-normalize: 1.1.0
   next: 12.0.2_react-dom@17.0.2+react@17.0.2
@@ -250,6 +250,29 @@ packages:
 
   /@micro-stacks/react/0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3:
     resolution: {integrity: sha512-pc9ZYH9WwM2XiqQo3Dj4H3YbU1sNuBa2ngbzlvGWoMvaf7gip8u4n965MptNo2JHJyHluYQvbdRl/eq41XffxA==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      react: '>=17.0.0'
+      react-dom: '>=17.0.0'
+    dependencies:
+      jotai: 1.4.2_b7818f94369c2e36fe4e48e780769ae7
+      micro-stacks: 0.1.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@babel/template'
+      - '@urql/core'
+      - immer
+      - optics-ts
+      - react-query
+      - valtio
+      - wonka
+      - xstate
+    dev: false
+
+  /@micro-stacks/react/0.0.5_2eab2928f395fc0d28bdf8aaab30a2b3:
+    resolution: {integrity: sha512-QmW6mDq6VbMgE6dxHYnnQ7BpN4NrjSXE4iQ1HhnHKQGveFTAlMNecBh32cB/YTz1+B1MUe4w+zFQyiMoj5hKlQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=17.0.0'
