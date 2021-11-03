@@ -1,27 +1,28 @@
-import { wrapWithMicroStacks, makeGetServerSideProps } from '@micro-stacks/nextjs';
+import { makeGetServerSideProps } from '@micro-stacks/nextjs';
 import { Devtools } from '../components/devtools';
 import { MainArea } from '../components/main-area';
 
 import type { NextPage } from 'next';
+import { Header } from '../components/header';
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div
+      style={{
+        padding: '32px',
+      }}
+    >
+      <Header />
       <Devtools />
       <MainArea />
-    </>
+    </div>
   );
 };
 
-const withMicroStacks = wrapWithMicroStacks({
-  authOptions: {
-    appDetails: {
-      name: 'test app',
-      icon: 'icon',
-    },
-  },
-});
+export const getServerSideProps = makeGetServerSideProps([
+  'currentAccountBalances',
+  'currentAccountTransactions',
+  'currentAccountAssetsList',
+]);
 
-export const getServerSideProps = makeGetServerSideProps(['currentAccountBalances']);
-
-export default withMicroStacks(Home);
+export default Home;
