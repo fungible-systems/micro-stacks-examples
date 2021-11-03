@@ -2,33 +2,45 @@ lockfileVersion: 5.3
 
 specifiers:
   '@babel/template': 7.16.0
-  '@micro-stacks/nextjs': 0.0.4
-  '@micro-stacks/query': 0.0.4
-  '@micro-stacks/react': 0.0.4
+  '@micro-stacks/nextjs': latest
+  '@micro-stacks/query': latest
+  '@micro-stacks/react': latest
+  '@nelson-ui/core': latest
+  '@nelson-ui/react': latest
+  '@radix-ui/react-switch': 0.1.1
   '@stacks/prettier-config': 0.0.9
   '@stacks/stacks-blockchain-api-types': 0.70.1
   '@types/react': 17.0.31
+  broadcast-channel: 4.4.0
   eslint: 8.0.1
   eslint-config-next: 11.1.2
-  jotai-query-toolkit: 0.1.16
+  jotai: 1.4.2
+  jotai-query-toolkit: latest
   modern-normalize: ^1.1.0
   next: 12.0.2
   prettier: 2.4.1
   react: 17.0.2
   react-dom: 17.0.2
   react-query: 3.31.0
+  stable-hash: ^0.0.2
   typescript: 4.5.1-rc
 
 dependencies:
-  '@micro-stacks/nextjs': 0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3
-  '@micro-stacks/query': 0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3
-  '@micro-stacks/react': 0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3
-  jotai-query-toolkit: 0.1.16_4d3c60e353e0597ff58cb71c6190a7dd
+  '@micro-stacks/nextjs': 0.0.7_2eab2928f395fc0d28bdf8aaab30a2b3
+  '@micro-stacks/query': 0.0.7_2eab2928f395fc0d28bdf8aaab30a2b3
+  '@micro-stacks/react': 0.0.7_2eab2928f395fc0d28bdf8aaab30a2b3
+  '@nelson-ui/core': 0.1.1
+  '@nelson-ui/react': 0.1.1
+  '@radix-ui/react-switch': 0.1.1_react@17.0.2
+  broadcast-channel: 4.4.0
+  jotai: 1.4.2_b7818f94369c2e36fe4e48e780769ae7
+  jotai-query-toolkit: 0.1.17_4d3c60e353e0597ff58cb71c6190a7dd
   modern-normalize: 1.1.0
   next: 12.0.2_react-dom@17.0.2+react@17.0.2
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-query: 3.31.0_react-dom@17.0.2+react@17.0.2
+  stable-hash: 0.0.2
 
 devDependencies:
   '@babel/template': 7.16.0
@@ -99,7 +111,7 @@ packages:
     resolution: {integrity: sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      regenerator-runtime: 0.13.4
+      regenerator-runtime: 0.13.9
     dev: false
 
   /@babel/runtime/7.16.0:
@@ -182,17 +194,17 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@micro-stacks/nextjs/0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3:
-    resolution: {integrity: sha512-cn8eib3fFhstkd0baL4jEGqWZlxRSRAldZTLIFDynyY6yEBk5z5EGCi6QhGnHW6iORSSefGAAlyvSba5hiOU3w==}
+  /@micro-stacks/nextjs/0.0.7_2eab2928f395fc0d28bdf8aaab30a2b3:
+    resolution: {integrity: sha512-jdPOeC6Qc3STVScn2ilHy8cq7VccB+nqjGPcNvvE2PlUujPU7gWy0t4qY22GOm53UVr+GM2Kgt6zHcx95+VBlA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
-      '@micro-stacks/query': 0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3
-      '@micro-stacks/react': 0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3
+      '@micro-stacks/query': 0.0.7_2eab2928f395fc0d28bdf8aaab30a2b3
+      '@micro-stacks/react': 0.0.7_2eab2928f395fc0d28bdf8aaab30a2b3
       jotai: 1.4.2_b7818f94369c2e36fe4e48e780769ae7
-      jotai-query-toolkit: 0.1.16_4d3c60e353e0597ff58cb71c6190a7dd
+      jotai-query-toolkit: 0.1.17_4d3c60e353e0597ff58cb71c6190a7dd
       micro-stacks: 0.1.0
       next: 12.0.2_react-dom@17.0.2+react@17.0.2
       nookies: 2.5.2
@@ -215,17 +227,17 @@ packages:
       - xstate
     dev: false
 
-  /@micro-stacks/query/0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3:
-    resolution: {integrity: sha512-gx7glORPbrr4CAkt1MYs7PwCbL/lJilaeUjmvCWgMHLrZiLNms7g1jgxosKWIV/sYIKXXPHldYj0Uz1pG3eVFw==}
+  /@micro-stacks/query/0.0.7_2eab2928f395fc0d28bdf8aaab30a2b3:
+    resolution: {integrity: sha512-dCUhmqrjDJ0uWpTFWc25prFa/ge+sEVVVGJBVjjvfmwVJzRCmOSAIW63+ijIsfABDTbVFYBiy8NFa+x5ILEBow==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
-      react-query: ^3.31.0
+      react-query: latest
     dependencies:
-      '@micro-stacks/react': 0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3
+      '@micro-stacks/react': 0.0.7_2eab2928f395fc0d28bdf8aaab30a2b3
       jotai: 1.4.2_b7818f94369c2e36fe4e48e780769ae7
-      jotai-query-toolkit: 0.1.16_4d3c60e353e0597ff58cb71c6190a7dd
+      jotai-query-toolkit: 0.1.17_4d3c60e353e0597ff58cb71c6190a7dd
       micro-stacks: 0.1.0
       next: 12.0.2_react-dom@17.0.2+react@17.0.2
       nookies: 2.5.2
@@ -248,17 +260,19 @@ packages:
       - xstate
     dev: false
 
-  /@micro-stacks/react/0.0.4_2eab2928f395fc0d28bdf8aaab30a2b3:
-    resolution: {integrity: sha512-pc9ZYH9WwM2XiqQo3Dj4H3YbU1sNuBa2ngbzlvGWoMvaf7gip8u4n965MptNo2JHJyHluYQvbdRl/eq41XffxA==}
+  /@micro-stacks/react/0.0.7_2eab2928f395fc0d28bdf8aaab30a2b3:
+    resolution: {integrity: sha512-vCc9s8gsNIMBoOhwb1q/Z+lRFbI4El6Q61K6dSuozdvdQ4tCTD3y1jreu7rL+v5kdCHk7XvjvWrDXLccBFRP/w==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
+      broadcast-channel: 4.4.0
       jotai: 1.4.2_b7818f94369c2e36fe4e48e780769ae7
       micro-stacks: 0.1.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+      stable-hash: 0.0.2
     transitivePeerDependencies:
       - '@babel/core'
       - '@babel/template'
@@ -273,6 +287,25 @@ packages:
 
   /@napi-rs/triples/1.0.3:
     resolution: {integrity: sha512-jDJTpta+P4p1NZTFVLHJ/TLFVYVcOqv6l8xwOeBKNPMgY/zDYH/YH7SJbvrr/h1RcS9GzbPcLKGzpuK9cV56UA==}
+    dev: false
+
+  /@nelson-ui/core/0.1.1:
+    resolution: {integrity: sha512-jopZ2PfTUs2gCTgTbXYcSKnUi8+HqRcrVbtlw706bQbfeKrpViH4kJzBFWHnc8tf4TGWQxzPRxgfOdU2TBIkVw==}
+    dependencies:
+      '@nelson-ui/theme': 0.1.3
+      '@stitches/core': 1.2.5
+    dev: false
+
+  /@nelson-ui/react/0.1.1:
+    resolution: {integrity: sha512-AmePF5WQNmVMxdeIgBgZNPDOkcT+I0V5KSlotCi8RtTaiJcCQyEh8YjYTOhi96DcAASMBC7fs2sEVeA0+pqMzg==}
+    dependencies:
+      '@nelson-ui/core': 0.1.1
+      '@nelson-ui/theme': 0.1.3
+      clsx: 1.1.1
+    dev: false
+
+  /@nelson-ui/theme/0.1.3:
+    resolution: {integrity: sha512-UtcroI+XQ5KP4kF50CfDwhZ2Drt7Zh5tZhW14qtdeCVbMbQqvOGVz/JT/jVEPwIhTEJcWqBLTjmD9jPl8m2VgQ==}
     dev: false
 
   /@next/env/12.0.2:
@@ -446,6 +479,127 @@ packages:
       fastq: 1.13.0
     dev: true
 
+  /@radix-ui/primitive/0.1.0:
+    resolution: {integrity: sha512-tqxZKybwN5Fa3VzZry4G6mXAAb9aAqKmPtnVbZpL0vsBwvOHTBwsjHVPXylocYLwEtBY9SCe665bYnNB515uoA==}
+    dependencies:
+      '@babel/runtime': 7.16.0
+    dev: false
+
+  /@radix-ui/react-compose-refs/0.1.0_react@17.0.2:
+    resolution: {integrity: sha512-eyclbh+b77k+69Dk72q3694OHrn9B3QsoIRx7ywX341U9RK1ThgQjMFZoPtmZNQTksXHLNEiefR8hGVeFyInGg==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-context/0.1.1_react@17.0.2:
+    resolution: {integrity: sha512-PkyVX1JsLBioeu0jB9WvRpDBBLtLZohVDT3BB5CTSJqActma8S8030P57mWZb4baZifMvN7KKWPAA40UmWKkQg==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-id/0.1.1_react@17.0.2:
+    resolution: {integrity: sha512-Vlg5me65+NUgxPBuA0Lk6FerNe+Mq4EuJ8xzpskGxS2t8p1puI3IkyLZ2wWtDSb1KXazoaHn8adBypagt+1P0g==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      '@radix-ui/react-context': 0.1.1_react@17.0.2
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-label/0.1.1_react@17.0.2:
+    resolution: {integrity: sha512-52mHm7gxDcbY1+XuFwe0zBvUHp+JP424QC5V2nloPH9JUpCsM2MfviqA/nyW4nKuoGAeF6MhedjtlrXyze8DFw==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      '@radix-ui/react-compose-refs': 0.1.0_react@17.0.2
+      '@radix-ui/react-context': 0.1.1_react@17.0.2
+      '@radix-ui/react-id': 0.1.1_react@17.0.2
+      '@radix-ui/react-primitive': 0.1.1_react@17.0.2
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-primitive/0.1.1_react@17.0.2:
+    resolution: {integrity: sha512-65GCHeDV/ikicXKR2rLSO6w+dyUQwSG2J1JD2qm4suK1259nTuRvPsPBrbhZpoXWQKj2drMZfhhclXVfzwW1Kw==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      '@radix-ui/react-slot': 0.1.1_react@17.0.2
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-slot/0.1.1_react@17.0.2:
+    resolution: {integrity: sha512-deq3K7cCXQ+tWMZF2GKl3zGMcwVbyQDiMY/UcPI0Q1DDudRG2dWrEwcYbYajEelc07oOxzNyKpaXZLOpNxquuA==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      '@radix-ui/react-compose-refs': 0.1.0_react@17.0.2
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-switch/0.1.1_react@17.0.2:
+    resolution: {integrity: sha512-QlLGNj7NnMUoYj+9msP4q9/X7ZtHLqVLlH5CSzEgoDxxU+wh5+65oTyBynWJLsF9QligE9pJqOwMdqo4qqnBhg==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      '@radix-ui/primitive': 0.1.0
+      '@radix-ui/react-compose-refs': 0.1.0_react@17.0.2
+      '@radix-ui/react-context': 0.1.1_react@17.0.2
+      '@radix-ui/react-label': 0.1.1_react@17.0.2
+      '@radix-ui/react-primitive': 0.1.1_react@17.0.2
+      '@radix-ui/react-use-controllable-state': 0.1.0_react@17.0.2
+      '@radix-ui/react-use-previous': 0.1.0_react@17.0.2
+      '@radix-ui/react-use-size': 0.1.0_react@17.0.2
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-use-callback-ref/0.1.0_react@17.0.2:
+    resolution: {integrity: sha512-Va041McOFFl+aV+sejvl0BS2aeHx86ND9X/rVFmEFQKTXCp6xgUK0NGUAGcgBlIjnJSbMYPGEk1xKSSlVcN2Aw==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-use-controllable-state/0.1.0_react@17.0.2:
+    resolution: {integrity: sha512-zv7CX/PgsRl46a52Tl45TwqwVJdmqnlQEQhaYMz/yBOD2sx2gCkCFSoF/z9mpnYWmS6DTLNTg5lIps3fV6EnXg==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      '@radix-ui/react-use-callback-ref': 0.1.0_react@17.0.2
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-use-previous/0.1.0_react@17.0.2:
+    resolution: {integrity: sha512-0fxNc33rYnCzDMPSiSnfS8YklnxQo8WqbAQXPAgIaaA1jRu2qFB916PL4qCIW+avcAAqFD38vWhqDqcVmBharA==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      react: 17.0.2
+    dev: false
+
+  /@radix-ui/react-use-size/0.1.0_react@17.0.2:
+    resolution: {integrity: sha512-TcZAsR+BYI46w/RbaSFCRACl+Jh6mDqhu6GS2r0iuJpIVrj8atff7qtTjmMmfGtEDNEjhl7DxN3pr1nTS/oruQ==}
+    peerDependencies:
+      react: ^16.8 || ^17.0
+    dependencies:
+      '@babel/runtime': 7.16.0
+      react: 17.0.2
+    dev: false
+
   /@rushstack/eslint-patch/1.0.9:
     resolution: {integrity: sha512-yk9Xj/3bUxyz3azMXW8qigLqXWEr2R0h9G7PVnnmjNQdlZLN+aESqCTnVN7ubtYUIQfW32/v8+AXsbpL1ryI1A==}
     dev: true
@@ -459,6 +613,10 @@ packages:
   /@stacks/stacks-blockchain-api-types/0.70.1:
     resolution: {integrity: sha512-KM+J+954udj+80EuUxD+C/SUsKyGe1tQONM8z3eVSzEwnQi70FF9WVk8j+Dtk6q6TyR6IR2PM13Mj5yMTzRbKQ==}
     dev: true
+
+  /@stitches/core/1.2.5:
+    resolution: {integrity: sha512-E2N+Y2bKK7YS+J0kyORduGSwZMQsztYZAp3G/6Hgl2smA+Zzugwfuhc7sAYscdY3ShRf4gvHueNmO2vX+uLB4Q==}
+    dev: false
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
@@ -743,6 +901,18 @@ packages:
       unload: 2.2.0
     dev: false
 
+  /broadcast-channel/4.4.0:
+    resolution: {integrity: sha512-25UGbuDUqVnMVy+wEFT2eSDWBVncpxiHnGmFqb1r4lYNuC7YUN7gcsXQlTUlaHsP51leOQ007K+d44aN0qrGtg==}
+    dependencies:
+      '@babel/runtime': 7.16.0
+      detect-node: 2.1.0
+      microseconds: 0.2.0
+      nano-time: 1.0.0
+      oblivious-set: 1.0.0
+      rimraf: 3.0.2
+      unload: 2.2.0
+    dev: false
+
   /brorand/1.1.0:
     resolution: {integrity: sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=}
     dev: false
@@ -897,6 +1067,11 @@ packages:
 
   /classnames/2.2.6:
     resolution: {integrity: sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==}
+    dev: false
+
+  /clsx/1.1.1:
+    resolution: {integrity: sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==}
+    engines: {node: '>=6'}
     dev: false
 
   /color-convert/1.9.3:
@@ -1925,8 +2100,8 @@ packages:
       supports-color: 8.1.1
     dev: false
 
-  /jotai-query-toolkit/0.1.16_4d3c60e353e0597ff58cb71c6190a7dd:
-    resolution: {integrity: sha512-4yOuRz9V/Znf9BRaxa1/nDMQ7bW3MJfR5h/9/6pX6d6eNgbPOeXGbl4ffroxJkp5thkYeVMrPKRlWwtXlPXHbw==}
+  /jotai-query-toolkit/0.1.17_4d3c60e353e0597ff58cb71c6190a7dd:
+    resolution: {integrity: sha512-iBNJBw7GOxu4y/BwVRexQDZLBt2a1V9X5b1dh/YtvcRnH1eM5iENvKO02FkLXZfkqy/79snxcGBZ2yLVgigP1g==}
     engines: {node: '>=12'}
     peerDependencies:
       next: '*'
@@ -2870,6 +3045,10 @@ packages:
   /sprintf-js/1.0.3:
     resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}
     dev: true
+
+  /stable-hash/0.0.2:
+    resolution: {integrity: sha512-tPwQ3c1rLIwbJpq59duoznegEbmgfV630C2n4R4G96LKBFljgK8j+O9AxjqB6cAzu4gE7s4pByrLWtZel8E+Mg==}
+    dev: false
 
   /stacktrace-parser/0.1.10:
     resolution: {integrity: sha512-KJP1OCML99+8fhOHxwwzyWrlUuVX5GQ0ZpJTd1DFXhdkrvg1szxfHhawXUZ3g9TkXORQd4/WG68jMlQZ2p8wlg==}

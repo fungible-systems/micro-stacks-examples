@@ -1,4 +1,5 @@
 import { useAuth } from '@micro-stacks/react';
+import { Box } from '@nelson-ui/react';
 
 export const WalletConnectButton = ({
   label = 'Connect Stacks Wallet',
@@ -7,17 +8,17 @@ export const WalletConnectButton = ({
 }) => {
   const { isSignedIn, handleSignIn, handleSignOut, isLoading } = useAuth();
   return (
-    <button
-      style={{
-        all: 'unset',
-        background: 'black',
-        color: 'white',
-        padding: '10px',
-        borderRadius: '16px',
-      }}
+    <Box
+      as="button"
+      backgroundColor={'$surface-contrast'}
+      color={'$text-onContrast'}
+      border={0}
+      px={'$base'}
+      py={'$tight'}
+      borderRadius={'$medium'}
       onClick={isSignedIn ? () => handleSignOut() : () => handleSignIn()}
     >
       {isLoading ? loadingLabel : isSignedIn ? signedInLabel : label}
-    </button>
+    </Box>
   );
 };

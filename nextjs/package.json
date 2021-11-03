@@ -11,15 +11,21 @@
   },
   "prettier": "@stacks/prettier-config",
   "dependencies": {
-    "@micro-stacks/nextjs": "0.0.4",
-    "@micro-stacks/query": "0.0.4",
-    "@micro-stacks/react": "0.0.4",
-    "jotai-query-toolkit": "0.1.16",
+    "@micro-stacks/nextjs": "latest",
+    "@micro-stacks/query": "latest",
+    "@micro-stacks/react": "latest",
+    "@nelson-ui/core": "latest",
+    "@nelson-ui/react": "latest",
+    "@radix-ui/react-switch": "0.1.1",
+    "broadcast-channel": "4.4.0",
+    "jotai": "1.4.2",
+    "jotai-query-toolkit": "latest",
     "modern-normalize": "^1.1.0",
     "next": "12.0.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-query": "3.31.0"
+    "react-query": "3.31.0",
+    "stable-hash": "^0.0.2"
   },
   "devDependencies": {
     "@babel/template": "7.16.0",

@@ -7,15 +7,11 @@ import { Header } from '../components/header';
 
 const Home: NextPage = () => {
   return (
-    <div
-      style={{
-        padding: '32px',
-      }}
-    >
+    <>
       <Header />
       <Devtools />
       <MainArea />
-    </div>
+    </>
   );
 };
 
