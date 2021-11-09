@@ -1,9 +1,10 @@
 import { makeGetServerSideProps } from '@micro-stacks/nextjs';
 import { Devtools } from '../components/devtools';
 import { MainArea } from '../components/main-area';
+import { Header } from '../components/header';
+import { withMicroStacks } from '../common/with-micro-stacks';
 
 import type { NextPage } from 'next';
-import { Header } from '../components/header';
 
 const Home: NextPage = () => {
   return (
@@ -21,4 +22,4 @@ export const getServerSideProps = makeGetServerSideProps([
   'currentAccountAssetsList',
 ]);
 
-export default Home;
+export default withMicroStacks(Home);

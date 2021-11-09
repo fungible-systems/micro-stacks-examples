@@ -1,5 +1,5 @@
 import { WalletConnectButton } from './wallet-connect-button';
-import { Box, SpaceBetween, Text } from '@nelson-ui/react';
+import { SpaceBetween, Text } from '@nelson-ui/react';
 
 export function Header() {
   return (
