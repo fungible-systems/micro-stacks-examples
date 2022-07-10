@@ -1,16 +1,18 @@
+const url = import.meta.env.PROD ? 'https://micro-stacks-sveltekit-example.vercel.app' : 'http://localhost:3000'
+
 export const onPersistState = async (dehydratedState: string) => {
   const formData = new FormData();
 
   formData.set("dehydratedState", dehydratedState);
 
-  await fetch("http://localhost:3000/api/session/save", {
+  await fetch(url + "/api/session/save", {
     method: "POST",
     body: formData,
   });
 };
 
 export const onSignOut = async () => {
-  await fetch("http://localhost:3000/api/session/destroy", {
+  await fetch(url + "/api/session/destroy", {
     method: "POST",
     body: null,
   });
