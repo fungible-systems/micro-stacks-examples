@@ -1,5 +1,5 @@
 {
-  "name": "svelte-microstacks",
+  "name": "@micro-stacks/svelte-example",
   "private": true,
   "version": "0.0.0",
   "type": "module",

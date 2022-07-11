@@ -1,7 +1,7 @@
 {
-  "name": "micro-stacks-nextjs-example",
-  "version": "0.1.0",
+  "name": "@micro-stacks/nextjs-example",
   "private": true,
+  "version": "0.1.0",
   "scripts": {
 	"dev": "next dev",
 	"build": "next build",

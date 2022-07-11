@@ -1,0 +1,25 @@
+{
+  "name": "@micro-stacks/solidjs-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@stacks/prettier-config": "0.0.10",
+    "prettier": "2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9",
+    "vite-plugin-solid": "^2.2.6"
+  },
+  "dependencies": {
+    "@micro-stacks/client": "^1.0.0-beta.7",
+    "micro-stacks": "^0.6.1",
+    "solid-js": "^1.4.2"
+  }
+}
