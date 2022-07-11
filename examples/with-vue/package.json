@@ -1,0 +1,26 @@
+{
+  "name": "with-vue",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@micro-stacks/client": "^1.0.0-beta.8",
+    "@micro-stacks/vue": "^1.0.0-beta.0",
+    "micro-stacks": "^0.6.1",
+    "pinia": "^2.0.14",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@stacks/prettier-config": "0.0.10",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "prettier": "2.7.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  },
+  "prettier": "@stacks/prettier-config"
+}
