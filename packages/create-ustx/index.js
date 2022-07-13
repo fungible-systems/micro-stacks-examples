@@ -118,7 +118,7 @@ async function init() {
   let targetDir = formatTargetDir(argv._[0]);
   let template = argv.template || argv.t;
 
-  const defaultTargetDir = 'vite-project';
+  const defaultTargetDir = 'micro-stacks-project';
   const getProjectName = () =>
     targetDir === '.' ? path.basename(path.resolve()) : targetDir;
 
