@@ -64,7 +64,7 @@ importers:
       '@micro-stacks/client': 1.0.0-beta.8
       '@micro-stacks/react': 1.0.0-beta.11
       '@preact/preset-vite': ^2.3.0
-      preact: ^10.9.0
+      preact: ^10.10.0
       prettier: ^2.7.1
       vite: ^3.0.0
     dependencies:
@@ -81,9 +81,9 @@ importers:
       '@micro-stacks/client': 1.0.0-beta.8
       '@micro-stacks/react': 1.0.0-beta.11
       '@preact/preset-vite': ^2.3.0
-      preact: ^10.9.0
+      preact: ^10.10.0
       prettier: ^2.7.1
-      typescript: ^4.6.4
+      typescript: ^4.7.4
       vite: ^3.0.0
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.8
@@ -125,7 +125,7 @@ importers:
       '@vitejs/plugin-react': ^2.0.0
       react: ^18.2.0
       react-dom: ^18.2.0
-      typescript: ^4.6.4
+      typescript: ^4.7.4
       vite: ^3.0.0
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.8_react@18.2.0
@@ -150,13 +150,13 @@ importers:
       '@remix-run/serve': ^1.6.4
       '@remix-run/server-runtime': ^1.6.4
       '@remix-run/vercel': ^1.6.4
-      '@types/react': ^17.0.45
+      '@types/react': ^17.0.47
       '@types/react-dom': ^17.0.17
-      '@vercel/node': ^1.15.2
-      eslint: ^8.15.0
+      '@vercel/node': ^1.15.4
+      eslint: ^8.19.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      typescript: ^4.6.4
+      typescript: ^4.7.4
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.8_react@17.0.2
       '@micro-stacks/react': 1.0.0-beta.11_react-dom@17.0.2+react@17.0.2
@@ -181,8 +181,8 @@ importers:
       '@micro-stacks/client': ^1.0.0-beta.9
       '@micro-stacks/solidjs': ^1.0.0-beta.0
       prettier: 2.7.1
-      solid-js: ^1.4.2
-      vite: ^2.9.9
+      solid-js: ^1.4.7
+      vite: ^2.9.14
       vite-plugin-solid: ^2.2.6
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.9
@@ -198,9 +198,9 @@ importers:
       '@micro-stacks/client': ^1.0.0-beta.9
       '@micro-stacks/solidjs': ^1.0.0-beta.0
       prettier: 2.7.1
-      solid-js: ^1.4.2
-      typescript: ^4.6.4
-      vite: ^2.9.9
+      solid-js: ^1.4.7
+      typescript: ^4.7.4
+      vite: ^2.9.14
       vite-plugin-solid: ^2.2.6
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.9
@@ -216,21 +216,21 @@ importers:
     specifiers:
       '@micro-stacks/client': 1.0.0-beta.8
       '@micro-stacks/svelte': 1.0.0-beta.1
-      '@sveltejs/vite-plugin-svelte': ^1.0.0-next.30
+      '@sveltejs/vite-plugin-svelte': ^1.0.1
       '@tsconfig/svelte': ^2.0.1
       micro-stacks: 0.6.1
-      svelte: ^3.44.0
-      svelte-check: ^2.2.7
-      svelte-preprocess: ^4.9.8
-      tslib: ^2.3.1
-      typescript: ^4.5.4
-      vite: ^2.9.9
+      svelte: ^3.49.0
+      svelte-check: ^2.8.0
+      svelte-preprocess: ^4.10.7
+      tslib: ^2.4.0
+      typescript: ^4.7.4
+      vite: ^2.9.14
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.8
       '@micro-stacks/svelte': 1.0.0-beta.1_svelte@3.49.0
       micro-stacks: 0.6.1
     devDependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.49_svelte@3.49.0+vite@2.9.14
+      '@sveltejs/vite-plugin-svelte': 1.0.1_svelte@3.49.0+vite@2.9.14
       '@tsconfig/svelte': 2.0.1
       svelte: 3.49.0
       svelte-check: 2.8.0_svelte@3.49.0
@@ -241,26 +241,26 @@ importers:
 
   examples/with-sveltekit:
     specifiers:
-      '@micro-stacks/svelte': ^1.0.0-beta.1
+      '@micro-stacks/svelte': ^1.0.0-beta.2
       '@stacks/prettier-config': 0.0.10
       '@sveltejs/adapter-auto': next
       '@sveltejs/kit': next
       prettier: ^2.7.1
       prettier-plugin-svelte: ^2.7.0
-      svelte: ^3.44.0
-      svelte-check: ^2.7.1
+      svelte: ^3.49.0
+      svelte-check: ^2.8.0
       svelte-kit-cookie-session: ^3.0.6
-      svelte-preprocess: ^4.10.6
-      tslib: ^2.3.1
+      svelte-preprocess: ^4.10.7
+      tslib: ^2.4.0
       typescript: ^4.7.4
-      vite: ^2.9.13
+      vite: ^2.9.14
     dependencies:
-      '@micro-stacks/svelte': 1.0.0-beta.1_svelte@3.49.0
+      '@micro-stacks/svelte': 1.0.0-beta.2_svelte@3.49.0
       svelte-kit-cookie-session: 3.0.6
     devDependencies:
       '@stacks/prettier-config': 0.0.10
       '@sveltejs/adapter-auto': 1.0.0-next.57
-      '@sveltejs/kit': 1.0.0-next.370_svelte@3.49.0+vite@2.9.14
+      '@sveltejs/kit': 1.0.0-next.372_svelte@3.49.0+vite@2.9.14
       prettier: 2.7.1
       prettier-plugin-svelte: 2.7.0_prettier@2.7.1+svelte@3.49.0
       svelte: 3.49.0
@@ -270,24 +270,24 @@ importers:
       typescript: 4.7.4
       vite: 2.9.14
 
-  examples/with-vue:
+  examples/with-vue-ts:
     specifiers:
-      '@micro-stacks/client': ^1.0.0-beta.8
+      '@micro-stacks/client': ^1.0.0-beta.9
       '@micro-stacks/vue': ^1.0.0-beta.0
       '@stacks/prettier-config': 0.0.10
       '@vitejs/plugin-vue': ^2.3.3
       micro-stacks: ^0.6.1
-      pinia: ^2.0.14
+      pinia: ^2.0.16
       prettier: 2.7.1
-      typescript: ^4.5.4
-      vite: ^2.9.9
-      vue: ^3.2.25
-      vue-tsc: ^0.34.7
+      typescript: ^4.7.4
+      vite: ^2.9.14
+      vue: ^3.2.37
+      vue-tsc: ^0.34.17
     dependencies:
-      '@micro-stacks/client': 1.0.0-beta.8
+      '@micro-stacks/client': 1.0.0-beta.9
       '@micro-stacks/vue': 1.0.0-beta.0_vue@3.2.37
       micro-stacks: 0.6.1
-      pinia: 2.0.14_typescript@4.7.4+vue@3.2.37
+      pinia: 2.0.16_typescript@4.7.4+vue@3.2.37
       vue: 3.2.37
     devDependencies:
       '@stacks/prettier-config': 0.0.10
@@ -299,10 +299,10 @@ importers:
 
   packages/create-ustx:
     specifiers:
-      degit: ^2.8.4
-      kolorist: ^1.5.1
-      minimist: ^1.2.6
-      prompts: ^2.4.2
+      degit: 2.8.4
+      kolorist: 1.5.1
+      minimist: 1.2.6
+      prompts: 2.4.2
     dependencies:
       degit: 2.8.4
       kolorist: 1.5.1
@@ -2270,6 +2270,21 @@ packages:
       - react
     dev: false
 
+  /@micro-stacks/svelte/1.0.0-beta.2_svelte@3.49.0:
+    resolution: {integrity: sha512-5MyNZOmK5RZBC3QM5xDYAgJwtil99pCQmjhpdES09ovUWo36p1X8g7v/ewteviA7CAk9M4KZQNy/2UlXHgumOA==}
+    peerDependencies:
+      svelte: ^3.48.0
+    dependencies:
+      '@micro-stacks/client': 1.0.0-beta.8
+      micro-stacks: 0.6.1
+      svelte: 3.49.0
+    transitivePeerDependencies:
+      - '@scure/bip32'
+      - '@scure/bip39'
+      - immer
+      - react
+    dev: false
+
   /@micro-stacks/vue/1.0.0-beta.0_vue@3.2.37:
     resolution: {integrity: sha512-EH3Ia5owZ4FJ8bWakcJtjqNzDJb9RVTlE2wfMohLSbRUklBkosI2ogpBfuJAV0rK3YNxW5jv/p7C+WnQpr3GFQ==}
     engines: {node: '>=12'}
@@ -2799,8 +2814,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.370_svelte@3.49.0+vite@2.9.14:
-    resolution: {integrity: sha512-HAQtw8IjXs9yOPWKpuwpGgDT8x6Dgqm14NmFx0emF52vo5wn3tQzu0cBx299Po2RdRgfSDFKrNqVSlL1hVTHcA==}
+  /@sveltejs/kit/1.0.0-next.372_svelte@3.49.0+vite@2.9.14:
+    resolution: {integrity: sha512-pcnDfV8YQwj7d/SCaKWT7yPBrmgkPH9Dc4UIeX8yTLXDu8IPzI5kukEOy4xf6LjyJsuSGPy1Ch91ULugtVIdAQ==}
     engines: {node: '>=16.9'}
     hasBin: true
     peerDependencies:
@@ -2824,6 +2839,29 @@ packages:
       diff-match-patch: ^1.0.5
       svelte: ^3.44.0
       vite: ^2.9.0
+    peerDependenciesMeta:
+      diff-match-patch:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 4.2.1
+      debug: 4.3.4
+      deepmerge: 4.2.2
+      kleur: 4.1.5
+      magic-string: 0.26.2
+      svelte: 3.49.0
+      svelte-hmr: 0.14.12_svelte@3.49.0
+      vite: 2.9.14
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@sveltejs/vite-plugin-svelte/1.0.1_svelte@3.49.0+vite@2.9.14:
+    resolution: {integrity: sha512-PorCgUounn0VXcpeJu+hOweZODKmGuLHsLomwqSj+p26IwjjGffmYQfVHtiTWq+NqaUuuHWWG7vPge6UFw4Aeg==}
+    engines: {node: ^14.18.0 || >= 16}
+    peerDependencies:
+      diff-match-patch: ^1.0.5
+      svelte: ^3.44.0
+      vite: ^3.0.0
     peerDependenciesMeta:
       diff-match-patch:
         optional: true
@@ -8339,8 +8377,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /pinia/2.0.14_typescript@4.7.4+vue@3.2.37:
-    resolution: {integrity: sha512-0nPuZR4TetT/WcLN+feMSjWJku3SQU7dBbXC6uw+R6FLQJCsg+/0pzXyD82T1FmAYe0lsx+jnEDQ1BLgkRKlxA==}
+  /pinia/2.0.16_typescript@4.7.4+vue@3.2.37:
+    resolution: {integrity: sha512-9/LMVO+/epny1NBfC77vnps4g3JRezxhhoF1xLUk8mZkUIxVnwfEAIRiAX8mYBTD/KCwZqnDMqXc8w3eU0FQGg==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'

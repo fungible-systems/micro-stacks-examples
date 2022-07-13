@@ -5,8 +5,8 @@
   "license": "MIT",
   "author": "Evan You",
   "bin": {
-    "create-vite": "index.js",
-    "cva": "index.js"
+    "create-ustx": "index.js",
+    "csa": "index.js"
   },
   "files": [
     "index.js",
@@ -27,9 +27,9 @@
   },
   "homepage": "https://github.com/fungible-systems/micro-stacks-examples/tree/main/packages/create-ustx#readme",
   "dependencies": {
-    "degit": "^2.8.4",
-    "kolorist": "^1.5.1",
-    "minimist": "^1.2.6",
-    "prompts": "^2.4.2"
+    "degit": "2.8.4",
+    "kolorist": "1.5.1",
+    "minimist": "1.2.6",
+    "prompts": "2.4.2"
   }
 }

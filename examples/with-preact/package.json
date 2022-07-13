@@ -11,12 +11,12 @@
   "dependencies": {
     "@micro-stacks/client": "1.0.0-beta.8",
     "@micro-stacks/react": "1.0.0-beta.11",
-    "preact": "^10.9.0"
+    "preact": "^10.10.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.3.0",
-    "vite": "^3.0.0",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "vite": "^3.0.0"
   },
   "prettier": {
     "printWidth": 100,
