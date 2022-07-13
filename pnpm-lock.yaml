@@ -270,6 +270,21 @@ importers:
       typescript: 4.7.4
       vite: 3.0.0
 
+  examples/with-vue:
+    specifiers:
+      '@micro-stacks/client': ^1.0.0-beta.9
+      '@micro-stacks/vue': ^1.0.0-beta.0
+      '@vitejs/plugin-vue': ^3.0.0
+      vite: ^3.0.0
+      vue: ^3.2.37
+    dependencies:
+      '@micro-stacks/client': 1.0.0-beta.9
+      '@micro-stacks/vue': 1.0.0-beta.0_vue@3.2.37
+      vue: 3.2.37
+    devDependencies:
+      '@vitejs/plugin-vue': 3.0.0_vite@3.0.0+vue@3.2.37
+      vite: 3.0.0
+
   examples/with-vue-ts:
     specifiers:
       '@micro-stacks/client': ^1.0.0-beta.9
