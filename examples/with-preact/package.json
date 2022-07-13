@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@micro-stacks/client": "1.0.0-beta.9",
-    "@micro-stacks/react": "1.0.0-beta.11",
+    "@micro-stacks/react": "1.0.0-beta.13",
     "preact": "^10.10.0"
   },
   "devDependencies": {

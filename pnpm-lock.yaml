@@ -27,7 +27,7 @@ importers:
   examples/with-nextjs:
     specifiers:
       '@micro-stacks/client': 1.0.0-beta.9
-      '@micro-stacks/react': 1.0.0-beta.11
+      '@micro-stacks/react': 1.0.0-beta.13
       '@stacks/prettier-config': 0.0.10
       '@types/node': 18.0.3
       '@types/react': 18.0.15
@@ -43,7 +43,7 @@ importers:
       typescript: 4.7.4
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.9_react@18.2.0
-      '@micro-stacks/react': 1.0.0-beta.11_react-dom@18.2.0+react@18.2.0
+      '@micro-stacks/react': 1.0.0-beta.13_react-dom@18.2.0+react@18.2.0
       iron-session: 6.1.3_next@12.2.2
       micro-stacks: 0.6.1
       next: 12.2.2_react-dom@18.2.0+react@18.2.0
@@ -62,14 +62,14 @@ importers:
   examples/with-preact:
     specifiers:
       '@micro-stacks/client': 1.0.0-beta.9
-      '@micro-stacks/react': 1.0.0-beta.11
+      '@micro-stacks/react': 1.0.0-beta.13
       '@preact/preset-vite': ^2.3.0
       preact: ^10.10.0
       prettier: ^2.7.1
       vite: ^3.0.0
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.9
-      '@micro-stacks/react': 1.0.0-beta.11
+      '@micro-stacks/react': 1.0.0-beta.13
       preact: 10.10.0
     devDependencies:
       '@preact/preset-vite': 2.3.0_preact@10.10.0+vite@3.0.0
@@ -79,7 +79,7 @@ importers:
   examples/with-preact-ts:
     specifiers:
       '@micro-stacks/client': 1.0.0-beta.9
-      '@micro-stacks/react': 1.0.0-beta.11
+      '@micro-stacks/react': 1.0.0-beta.13
       '@preact/preset-vite': ^2.3.0
       preact: ^10.10.0
       prettier: ^2.7.1
@@ -87,7 +87,7 @@ importers:
       vite: ^3.0.0
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.9
-      '@micro-stacks/react': 1.0.0-beta.11
+      '@micro-stacks/react': 1.0.0-beta.13
       preact: 10.10.0
     devDependencies:
       '@preact/preset-vite': 2.3.0_preact@10.10.0+vite@3.0.0
@@ -98,7 +98,7 @@ importers:
   examples/with-react:
     specifiers:
       '@micro-stacks/client': 1.0.0-beta.9
-      '@micro-stacks/react': 1.0.0-beta.11
+      '@micro-stacks/react': 1.0.0-beta.13
       '@types/react': ^18.0.15
       '@types/react-dom': ^18.0.6
       '@vitejs/plugin-react': ^2.0.0
@@ -107,7 +107,7 @@ importers:
       vite: ^3.0.0
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.9_react@18.2.0
-      '@micro-stacks/react': 1.0.0-beta.11_react-dom@18.2.0+react@18.2.0
+      '@micro-stacks/react': 1.0.0-beta.13_react-dom@18.2.0+react@18.2.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
@@ -119,7 +119,7 @@ importers:
   examples/with-react-ts:
     specifiers:
       '@micro-stacks/client': 1.0.0-beta.9
-      '@micro-stacks/react': 1.0.0-beta.11
+      '@micro-stacks/react': 1.0.0-beta.13
       '@types/react': ^18.0.15
       '@types/react-dom': ^18.0.6
       '@vitejs/plugin-react': ^2.0.0
@@ -129,7 +129,7 @@ importers:
       vite: ^3.0.0
     dependencies:
       '@micro-stacks/client': 1.0.0-beta.9_react@18.2.0
-      '@micro-stacks/react': 1.0.0-beta.11_react-dom@18.2.0+react@18.2.0
+      '@micro-stacks/react': 1.0.0-beta.13_react-dom@18.2.0+react@18.2.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
@@ -142,7 +142,7 @@ importers:
   examples/with-remix:
     specifiers:
       '@micro-stacks/client': 1.0.0-beta.9
-      '@micro-stacks/react': 1.0.0-beta.11
+      '@micro-stacks/react': 1.0.0-beta.13
       '@remix-run/dev': ^1.6.4
       '@remix-run/eslint-config': ^1.6.4
       '@remix-run/node': ^1.6.4
@@ -154,23 +154,23 @@ importers:
       '@types/react-dom': ^18.0.6
       '@vercel/node': ^2.4.3
       eslint: ^8.19.0
-      react: 17.0.2
-      react-dom: 17.0.2
+      react: 18.2.0
+      react-dom: 18.2.0
       typescript: ^4.7.4
     dependencies:
-      '@micro-stacks/client': 1.0.0-beta.9_react@17.0.2
-      '@micro-stacks/react': 1.0.0-beta.11_react-dom@17.0.2+react@17.0.2
-      '@remix-run/node': 1.6.4_react-dom@17.0.2+react@17.0.2
-      '@remix-run/react': 1.6.4_react-dom@17.0.2+react@17.0.2
-      '@remix-run/server-runtime': 1.6.4_react-dom@17.0.2+react@17.0.2
-      '@remix-run/vercel': 1.6.4_811025e7524b871f48e3031676f9048b
+      '@micro-stacks/client': 1.0.0-beta.9_react@18.2.0
+      '@micro-stacks/react': 1.0.0-beta.13_react-dom@18.2.0+react@18.2.0
+      '@remix-run/node': 1.6.4_react-dom@18.2.0+react@18.2.0
+      '@remix-run/react': 1.6.4_react-dom@18.2.0+react@18.2.0
+      '@remix-run/server-runtime': 1.6.4_react-dom@18.2.0+react@18.2.0
+      '@remix-run/vercel': 1.6.4_22b8ebcc22ec0a77c86b348b3f8b2d78
       '@vercel/node': 2.4.3
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@remix-run/dev': 1.6.4_4d5f52b82072271c97d4e2dc9d9909b4
-      '@remix-run/eslint-config': 1.6.4_bb5d35c4a7da28303e40a6d821470b1e
-      '@remix-run/serve': 1.6.4_react-dom@17.0.2+react@17.0.2
+      '@remix-run/dev': 1.6.4_4e5f98a18452b65005343193c688ed75
+      '@remix-run/eslint-config': 1.6.4_582f7fb809c0a29228c50e5f199111da
+      '@remix-run/serve': 1.6.4_react-dom@18.2.0+react@18.2.0
       '@types/react': 18.0.15
       '@types/react-dom': 18.0.6
       eslint: 8.19.0
@@ -2111,51 +2111,6 @@ packages:
       - supports-color
     dev: true
 
-  /@micro-stacks/client/1.0.0-beta.7:
-    resolution: {integrity: sha512-xKWdFpi9CjctmJy/1k7TighkeJudqNIVKHm+mvtmRYn1EYoI2HH2mj/4GYaNSISbsJ0q5aZ/waMd/0cZ1z57PQ==}
-    engines: {node: '>=14'}
-    dependencies:
-      fast-deep-equal: 3.1.3
-      micro-stacks: 0.6.1
-      tiny-invariant: 1.2.0
-      zustand: 4.0.0-rc.1
-    transitivePeerDependencies:
-      - '@scure/bip32'
-      - '@scure/bip39'
-      - immer
-      - react
-    dev: false
-
-  /@micro-stacks/client/1.0.0-beta.7_react@17.0.2:
-    resolution: {integrity: sha512-xKWdFpi9CjctmJy/1k7TighkeJudqNIVKHm+mvtmRYn1EYoI2HH2mj/4GYaNSISbsJ0q5aZ/waMd/0cZ1z57PQ==}
-    engines: {node: '>=14'}
-    dependencies:
-      fast-deep-equal: 3.1.3
-      micro-stacks: 0.6.1
-      tiny-invariant: 1.2.0
-      zustand: 4.0.0-rc.1_react@17.0.2
-    transitivePeerDependencies:
-      - '@scure/bip32'
-      - '@scure/bip39'
-      - immer
-      - react
-    dev: false
-
-  /@micro-stacks/client/1.0.0-beta.7_react@18.2.0:
-    resolution: {integrity: sha512-xKWdFpi9CjctmJy/1k7TighkeJudqNIVKHm+mvtmRYn1EYoI2HH2mj/4GYaNSISbsJ0q5aZ/waMd/0cZ1z57PQ==}
-    engines: {node: '>=14'}
-    dependencies:
-      fast-deep-equal: 3.1.3
-      micro-stacks: 0.6.1
-      tiny-invariant: 1.2.0
-      zustand: 4.0.0-rc.1_react@18.2.0
-    transitivePeerDependencies:
-      - '@scure/bip32'
-      - '@scure/bip39'
-      - immer
-      - react
-    dev: false
-
   /@micro-stacks/client/1.0.0-beta.8:
     resolution: {integrity: sha512-tHmfkb/Z8dfnWSgRf/EBcjKoOjAkU/Tiif4z6gYMBTBGWicCqnqiZ0Tfcah8qVdgTixNW7R/NmH/lZ9JZhHBzw==}
     engines: {node: '>=14'}
@@ -2186,21 +2141,6 @@ packages:
       - react
     dev: false
 
-  /@micro-stacks/client/1.0.0-beta.9_react@17.0.2:
-    resolution: {integrity: sha512-yguW9wHjzSiJEKFJIk/R+7gMV/OjTlaFvUW2Jumk2Df3J9KWVPx15139r0syFBOp6vcy3/E8ELGkyKO+hQbMNQ==}
-    engines: {node: '>=14'}
-    dependencies:
-      fast-deep-equal: 3.1.3
-      micro-stacks: 0.6.1
-      tiny-invariant: 1.2.0
-      zustand: 4.0.0-rc.1_react@17.0.2
-    transitivePeerDependencies:
-      - '@scure/bip32'
-      - '@scure/bip39'
-      - immer
-      - react
-    dev: false
-
   /@micro-stacks/client/1.0.0-beta.9_react@18.2.0:
     resolution: {integrity: sha512-yguW9wHjzSiJEKFJIk/R+7gMV/OjTlaFvUW2Jumk2Df3J9KWVPx15139r0syFBOp6vcy3/E8ELGkyKO+hQbMNQ==}
     engines: {node: '>=14'}
@@ -2216,14 +2156,13 @@ packages:
       - react
     dev: false
 
-  /@micro-stacks/react/1.0.0-beta.11:
-    resolution: {integrity: sha512-LA85pSQI/ZjQ5yD2w/F/sZnJ0Rg5lb/quoZfqcQyhkto+45Pqi8YAgqsmeSoZTjJoUN+q5bJ0TLKTbAJdDV/PQ==}
-    engines: {node: '>=12'}
+  /@micro-stacks/react/1.0.0-beta.13:
+    resolution: {integrity: sha512-kdJ+xw/N3XfBIDtwSPKmQfIyxtCFlkCAXctvPEsQ8Tg8xYgh3binQ7SnNkioy7tuZScHulI5XJIHBpKo8APVUQ==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
-      '@micro-stacks/client': 1.0.0-beta.7
+      '@micro-stacks/client': 1.0.0-beta.9
       micro-stacks: 0.6.1
       react-async-hook: 4.0.0
     transitivePeerDependencies:
@@ -2232,32 +2171,13 @@ packages:
       - immer
     dev: false
 
-  /@micro-stacks/react/1.0.0-beta.11_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-LA85pSQI/ZjQ5yD2w/F/sZnJ0Rg5lb/quoZfqcQyhkto+45Pqi8YAgqsmeSoZTjJoUN+q5bJ0TLKTbAJdDV/PQ==}
-    engines: {node: '>=12'}
+  /@micro-stacks/react/1.0.0-beta.13_react-dom@18.2.0+react@18.2.0:
+    resolution: {integrity: sha512-kdJ+xw/N3XfBIDtwSPKmQfIyxtCFlkCAXctvPEsQ8Tg8xYgh3binQ7SnNkioy7tuZScHulI5XJIHBpKo8APVUQ==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
-      '@micro-stacks/client': 1.0.0-beta.7_react@17.0.2
-      micro-stacks: 0.6.1
-      react: 17.0.2
-      react-async-hook: 4.0.0_react@17.0.2
-      react-dom: 17.0.2_react@17.0.2
-    transitivePeerDependencies:
-      - '@scure/bip32'
-      - '@scure/bip39'
-      - immer
-    dev: false
-
-  /@micro-stacks/react/1.0.0-beta.11_react-dom@18.2.0+react@18.2.0:
-    resolution: {integrity: sha512-LA85pSQI/ZjQ5yD2w/F/sZnJ0Rg5lb/quoZfqcQyhkto+45Pqi8YAgqsmeSoZTjJoUN+q5bJ0TLKTbAJdDV/PQ==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      react: '>=17.0.0'
-      react-dom: '>=17.0.0'
-    dependencies:
-      '@micro-stacks/client': 1.0.0-beta.7_react@18.2.0
+      '@micro-stacks/client': 1.0.0-beta.9_react@18.2.0
       micro-stacks: 0.6.1
       react: 18.2.0
       react-async-hook: 4.0.0_react@18.2.0
@@ -2543,7 +2463,7 @@ packages:
       - supports-color
     dev: true
 
-  /@remix-run/dev/1.6.4_4d5f52b82072271c97d4e2dc9d9909b4:
+  /@remix-run/dev/1.6.4_4e5f98a18452b65005343193c688ed75:
     resolution: {integrity: sha512-HRWX7/c2PDxWfLa2/3oQcKFPQlKaQgelksFUmef4aaga4n6y4dHWE56do/Lf/t34T/PlKWa5uToiaUNuzpTmMQ==}
     engines: {node: '>=14'}
     hasBin: true
@@ -2559,8 +2479,8 @@ packages:
       '@babel/preset-typescript': 7.18.6_@babel+core@7.18.6
       '@esbuild-plugins/node-modules-polyfill': 0.1.4_esbuild@0.14.22
       '@npmcli/package-json': 2.0.0
-      '@remix-run/serve': 1.6.4_react-dom@17.0.2+react@17.0.2
-      '@remix-run/server-runtime': 1.6.4_react-dom@17.0.2+react@17.0.2
+      '@remix-run/serve': 1.6.4_react-dom@18.2.0+react@18.2.0
+      '@remix-run/server-runtime': 1.6.4_react-dom@18.2.0+react@18.2.0
       '@yarnpkg/esbuild-plugin-pnp': 3.0.0-rc.11_esbuild@0.14.22
       arg: 5.0.2
       cacache: 15.3.0
@@ -2602,7 +2522,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@remix-run/eslint-config/1.6.4_bb5d35c4a7da28303e40a6d821470b1e:
+  /@remix-run/eslint-config/1.6.4_582f7fb809c0a29228c50e5f199111da:
     resolution: {integrity: sha512-F8QgnjujbMlmjj0oXBbWZRWiFPs+9ZCKHpaK3wVqOO6yHZTwUsH3x3CpwzCoS4Hx+YevVom7BvE45m2Cx9Odiw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2631,32 +2551,32 @@ packages:
       eslint-plugin-react: 7.30.1_eslint@8.19.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.19.0
       eslint-plugin-testing-library: 5.5.1_eslint@8.19.0+typescript@4.7.4
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
       typescript: 4.7.4
     transitivePeerDependencies:
       - jest
       - supports-color
     dev: true
 
-  /@remix-run/express/1.6.4_466ebc0d4851fc8110767791966a48f3:
+  /@remix-run/express/1.6.4_8e688cb63a8366e6b640dbe8905b5fdb:
     resolution: {integrity: sha512-GyCMKYsqkgR1I/FCScKa9hEB9BTj5BljiqpdpZg3CNbHuBZKb8YW7iYu3uql2Okt+uiSy7I+/kKpZIqhSGkzEA==}
     engines: {node: '>=14'}
     peerDependencies:
       express: ^4.17.1
     dependencies:
-      '@remix-run/node': 1.6.4_react-dom@17.0.2+react@17.0.2
+      '@remix-run/node': 1.6.4_react-dom@18.2.0+react@18.2.0
       express: 4.17.3
     transitivePeerDependencies:
       - react
       - react-dom
     dev: true
 
-  /@remix-run/node/1.6.4_react-dom@17.0.2+react@17.0.2:
+  /@remix-run/node/1.6.4_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-ieYzemc3KGBPs+JqbQRRhVXDChvEnpzLlHd8OYj5jV6/pWHANtcRAGJjrWFfgaoqPU+zLrmH034TSoBjzVe+bA==}
     engines: {node: '>=14'}
     dependencies:
-      '@remix-run/server-runtime': 1.6.4_react-dom@17.0.2+react@17.0.2
+      '@remix-run/server-runtime': 1.6.4_react-dom@18.2.0+react@18.2.0
       '@remix-run/web-fetch': 4.1.3
       '@remix-run/web-file': 3.0.2
       '@remix-run/web-stream': 1.0.3
@@ -2669,7 +2589,7 @@ packages:
       - react
       - react-dom
 
-  /@remix-run/react/1.6.4_react-dom@17.0.2+react@17.0.2:
+  /@remix-run/react/1.6.4_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-Ai05U2pZqAqd4buvomKRJM32u34qmb7W7dZCxUYMV+6+CkYddxOjnrFcnG/KyRSqmJ12O8UWAspJCvkfbZVW5w==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -2677,17 +2597,17 @@ packages:
       react-dom: '>=16.8'
     dependencies:
       history: 5.3.0
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 6.3.0_react-dom@17.0.2+react@17.0.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router-dom: 6.3.0_react-dom@18.2.0+react@18.2.0
     dev: false
 
-  /@remix-run/serve/1.6.4_react-dom@17.0.2+react@17.0.2:
+  /@remix-run/serve/1.6.4_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-NfBxiFmbAdvvPMcK7ziXWdnhcvYD8Bm6t2OnlgtPUSCDqI0CGj12Ya3+YnQnThH9mIWWO2EXW/mx6jmCwmdsPQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@remix-run/express': 1.6.4_466ebc0d4851fc8110767791966a48f3
+      '@remix-run/express': 1.6.4_8e688cb63a8366e6b640dbe8905b5fdb
       compression: 1.7.4
       express: 4.17.3
       morgan: 1.10.0
@@ -2696,7 +2616,7 @@ packages:
       - react-dom
     dev: true
 
-  /@remix-run/server-runtime/1.6.4_react-dom@17.0.2+react@17.0.2:
+  /@remix-run/server-runtime/1.6.4_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-CHFJzg5+7yFLndZJnYvr0ZqtNhkmu0txk5hCAEtADvb19M56RywMT6s2u3POnAPWmjpvEA8hv5IpayfUi6xeRg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -2707,19 +2627,19 @@ packages:
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.4.2
       jsesc: 3.0.2
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-router-dom: 6.3.0_react-dom@17.0.2+react@17.0.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router-dom: 6.3.0_react-dom@18.2.0+react@18.2.0
       set-cookie-parser: 2.5.0
       source-map: 0.7.4
 
-  /@remix-run/vercel/1.6.4_811025e7524b871f48e3031676f9048b:
+  /@remix-run/vercel/1.6.4_22b8ebcc22ec0a77c86b348b3f8b2d78:
     resolution: {integrity: sha512-49i8P9gtM9vFpi6ezyakoOPgGCsWeDXBbXMeQOUis0Ir849xslYafgBA3RgND9x/Fhe+IcTVwr2Y026fAgACVg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vercel/node': ^1.8.3
     dependencies:
-      '@remix-run/node': 1.6.4_react-dom@17.0.2+react@17.0.2
+      '@remix-run/node': 1.6.4_react-dom@18.2.0+react@18.2.0
       '@vercel/node': 2.4.3
     transitivePeerDependencies:
       - react
@@ -8359,6 +8279,7 @@ packages:
   /object-assign/4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
+    dev: true
 
   /object-copy/0.1.0:
     resolution: {integrity: sha512-79LYn6VAb63zgtmAteVOWo9Vdj71ZVBy3Pbse+VqxDpEP83XuujMrGqHIwAXJ5I/aM0zU7dIyIAhifVTPrNItQ==}
@@ -8972,15 +8893,6 @@ packages:
       react: '>=16.8'
     dev: false
 
-  /react-async-hook/4.0.0_react@17.0.2:
-    resolution: {integrity: sha512-97lgjFkOcHCTYSrsKBpsXg3iVWM0LnzedB749iP76sb3/8Ouu4nHIkCLEOrQWHVYqrYxjF05NN6GHoXWFkB3Kw==}
-    engines: {node: '>=8', npm: '>=5'}
-    peerDependencies:
-      react: '>=16.8'
-    dependencies:
-      react: 17.0.2
-    dev: false
-
   /react-async-hook/4.0.0_react@18.2.0:
     resolution: {integrity: sha512-97lgjFkOcHCTYSrsKBpsXg3iVWM0LnzedB749iP76sb3/8Ouu4nHIkCLEOrQWHVYqrYxjF05NN6GHoXWFkB3Kw==}
     engines: {node: '>=8', npm: '>=5'}
@@ -8988,17 +8900,6 @@ packages:
       react: '>=16.8'
     dependencies:
       react: 18.2.0
-    dev: false
-
-  /react-dom/17.0.2_react@17.0.2:
-    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
-    peerDependencies:
-      react: 17.0.2
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      react: 17.0.2
-      scheduler: 0.20.2
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:
@@ -9024,32 +8925,24 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom/6.3.0_react-dom@17.0.2+react@17.0.2:
+  /react-router-dom/6.3.0_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
       history: 5.3.0
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-router: 6.3.0_react@17.0.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router: 6.3.0_react@18.2.0
 
-  /react-router/6.3.0_react@17.0.2:
+  /react-router/6.3.0_react@18.2.0:
     resolution: {integrity: sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==}
     peerDependencies:
       react: '>=16.8'
     dependencies:
       history: 5.3.0
-      react: 17.0.2
-
-  /react/17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-    dev: false
+      react: 18.2.0
 
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
@@ -9451,13 +9344,6 @@ packages:
       mkdirp: 0.5.6
       rimraf: 2.7.1
     dev: true
-
-  /scheduler/0.20.2:
-    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-    dev: false
 
   /scheduler/0.23.0:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
@@ -10603,14 +10489,6 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dev: false
 
-  /use-sync-external-store/1.1.0_react@17.0.2:
-    resolution: {integrity: sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      react: 17.0.2
-    dev: false
-
   /use-sync-external-store/1.1.0_react@18.2.0:
     resolution: {integrity: sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==}
     peerDependencies:
@@ -11055,22 +10933,6 @@ packages:
         optional: true
     dependencies:
       use-sync-external-store: 1.1.0
-    dev: false
-
-  /zustand/4.0.0-rc.1_react@17.0.2:
-    resolution: {integrity: sha512-qgcs7zLqBdHu0PuT3GW4WCIY5SgXdsv30GQMu9Qpp1BA2aS+sNS8l4x0hWuyEhjXkN+701aGWawhKDv6oWJAcw==}
-    engines: {node: '>=12.7.0'}
-    peerDependencies:
-      immer: '>=9.0'
-      react: '>=16.8'
-    peerDependenciesMeta:
-      immer:
-        optional: true
-      react:
-        optional: true
-    dependencies:
-      react: 17.0.2
-      use-sync-external-store: 1.1.0_react@17.0.2
     dev: false
 
   /zustand/4.0.0-rc.1_react@18.2.0:
