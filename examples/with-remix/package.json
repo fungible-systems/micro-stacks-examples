@@ -13,8 +13,8 @@
     "@remix-run/server-runtime": "^1.6.4",
     "@remix-run/vercel": "^1.6.4",
     "@vercel/node": "^2.4.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.6.4",
