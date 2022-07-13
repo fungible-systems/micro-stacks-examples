@@ -1,9 +1,9 @@
 {
   "name": "create-ustx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "license": "MIT",
-  "author": "Evan You",
+  "author": "Thomas Osmonson",
   "bin": {
     "create-ustx": "index.js",
     "csa": "index.js"
