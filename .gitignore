@@ -16,3 +16,4 @@ __WIP__
 .rollup.cache
 .ultra.cache.json
 .turbo
+test-cli
