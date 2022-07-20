@@ -6,23 +6,24 @@
     "dev": "remix dev"
   },
   "dependencies": {
-    "@micro-stacks/client": "1.0.0-beta.9",
-    "@micro-stacks/react": "1.0.0-beta.13",
-    "@remix-run/node": "^1.6.4",
-    "@remix-run/react": "^1.6.4",
-    "@remix-run/server-runtime": "^1.6.4",
-    "@remix-run/vercel": "^1.6.4",
-    "@vercel/node": "^2.4.3",
+    "@micro-stacks/client": "1.0.0-beta.13",
+    "@micro-stacks/react": "1.0.0-beta.18",
+    "@remix-run/node": "^1.6.5",
+    "@remix-run/react": "^1.6.5",
+    "@remix-run/server-runtime": "^1.6.5",
+    "@remix-run/vercel": "^1.6.5",
+    "@vercel/node": "^2.4.4",
+    "micro-stacks": "^1.0.0-beta.7",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^1.6.4",
-    "@remix-run/eslint-config": "^1.6.4",
-    "@remix-run/serve": "^1.6.4",
+    "@remix-run/dev": "^1.6.5",
+    "@remix-run/eslint-config": "^1.6.5",
+    "@remix-run/serve": "^1.6.5",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "eslint": "^8.19.0",
+    "eslint": "^8.20.0",
     "typescript": "^4.7.4"
   },
   "engines": {

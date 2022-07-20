@@ -9,13 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@micro-stacks/client": "^1.0.0-beta.9",
-    "@micro-stacks/vue": "^1.0.0-beta.0",
+    "@micro-stacks/client": "^1.0.0-beta.13",
+    "@micro-stacks/vue": "^1.0.0-beta.5",
+    "micro-stacks": "^1.0.0-beta.7",
     "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.0.0",
-    "vite": "^3.0.0"
+    "@vitejs/plugin-vue": "^3.0.1",
+    "vite": "^3.0.2"
   },
   "prettier": {
     "printWidth": 100,

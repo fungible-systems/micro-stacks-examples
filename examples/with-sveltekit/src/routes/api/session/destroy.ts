@@ -1,6 +1,6 @@
-import type { RequestEvent } from "@sveltejs/kit";
+import type { RequestEvent } from '@sveltejs/kit';
 
-export async function post({ locals }: RequestEvent) {
+export async function POST({ locals }: RequestEvent) {
   await locals.session.destroy();
 
   return {

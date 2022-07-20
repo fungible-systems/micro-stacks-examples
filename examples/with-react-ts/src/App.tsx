@@ -41,7 +41,7 @@ function Contents() {
           />
         </a>
       </div>
-      <h1>micro-stacks + Vite + Preact</h1>
+      <h1>micro-stacks + Vite + React</h1>
       <div className="card">
         <UserCard />
         <WalletConnectButton />

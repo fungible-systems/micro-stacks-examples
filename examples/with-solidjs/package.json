@@ -12,12 +12,13 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "2.7.1",
-    "vite": "^3.0.0",
-    "vite-plugin-solid": "^2.2.6"
+    "vite": "^3.0.2",
+    "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
-    "@micro-stacks/client": "^1.0.0-beta.9",
+    "@micro-stacks/client": "^1.0.0-beta.13",
     "@micro-stacks/solidjs": "^1.0.0-beta.0",
+    "micro-stacks": "^1.0.0-beta.7",
     "solid-js": "^1.4.7"
   },
   "prettier": {

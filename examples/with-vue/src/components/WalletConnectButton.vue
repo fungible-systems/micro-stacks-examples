@@ -1,19 +1,18 @@
-<script setup lang="ts">
+<script setup>
 import { useAccount, useAuth } from '@micro-stacks/vue';
 
-const auth = $(useAuth());
-const account = $(useAccount());
+const { isSignedIn, isRequestPending, signOut, openAuthRequest } = $(useAuth());
+const { stxAddress } = $(useAccount());
 
-const onClick = () => {
-  !auth.isSignedIn ? auth.openAuthRequest() : auth.signOut();
-};
+const onClick = () => (!isSignedIn ? openAuthRequest() : signOut());
 </script>
 
 <template>
-  <h1>{{ account.stxAddress }}</h1>
-  <button type="button" @click="() => onClick()">
-    {{
-      auth.isRequestPending ? 'pending...' : auth.isSignedIn ? 'sign out' : 'connect stacks wallet'
-    }}
+  <h1>{{ stxAddress ? stxAddress : 'No session active' }}</h1>
+  <button
+    type="button"
+    v-on:click="() => onClick()"
+  >
+    {{ isRequestPending ? 'pending...' : isSignedIn ? 'sign out' : 'connect stacks wallet' }}
   </button>
 </template>

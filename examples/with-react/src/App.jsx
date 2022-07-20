@@ -5,6 +5,7 @@ import * as MicroStacks from '@micro-stacks/react';
 import { WalletConnectButton } from './components/wallet-connect-button.jsx';
 import { UserCard } from './components/user-card.jsx';
 import { Logo } from './components/ustx-logo.jsx';
+import { NetworkToggle } from './components/network-toggle.jsx';
 
 function Contents() {
   return (
@@ -41,10 +42,11 @@ function Contents() {
           />
         </a>
       </div>
-      <h1>micro-stacks + Vite + Preact</h1>
+      <h1>micro-stacks + Vite + React</h1>
       <div class="card">
         <UserCard />
         <WalletConnectButton />
+        <NetworkToggle />
         <p
           style={{
             display: 'block',
