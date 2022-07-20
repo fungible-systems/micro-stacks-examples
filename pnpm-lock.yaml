@@ -122,6 +122,35 @@ importers:
       '@vitejs/plugin-react': 2.0.0_vite@3.0.2
       vite: 3.0.2
 
+  examples/with-react-jotai-ts:
+    specifiers:
+      '@micro-stacks/client': 1.0.0-beta.13
+      '@micro-stacks/jotai': 1.0.0-beta.2
+      '@micro-stacks/react': 1.0.0-beta.18
+      '@types/react': ^18.0.15
+      '@types/react-dom': ^18.0.6
+      '@vitejs/plugin-react': ^2.0.0
+      jotai: ^1.7.6
+      micro-stacks: ^1.0.0-beta.7
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      typescript: ^4.7.4
+      vite: ^3.0.2
+    dependencies:
+      '@micro-stacks/client': 1.0.0-beta.13_react@18.2.0
+      '@micro-stacks/jotai': 1.0.0-beta.2_biqbaboplfbrettd7655fr4n2y
+      '@micro-stacks/react': 1.0.0-beta.18_biqbaboplfbrettd7655fr4n2y
+      jotai: 1.7.6_react@18.2.0
+      micro-stacks: 1.0.0-beta.7
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@types/react': 18.0.15
+      '@types/react-dom': 18.0.6
+      '@vitejs/plugin-react': 2.0.0_vite@3.0.2
+      typescript: 4.7.4
+      vite: 3.0.2
+
   examples/with-react-ts:
     specifiers:
       '@micro-stacks/client': 1.0.0-beta.13
@@ -2159,6 +2188,32 @@ packages:
       - '@scure/bip39'
       - immer
       - react
+    dev: false
+
+  /@micro-stacks/jotai/1.0.0-beta.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-9qzJ8s7TcTUPTgJnERRo2iHWFq3Bx7m7QdBlQRUKk6Tqspx+kW/XCNiHi4UxAmWq9ziVrERv538sbZsf9M3Q6w==}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+    dependencies:
+      '@micro-stacks/client': 1.0.0-beta.13_react@18.2.0
+      '@micro-stacks/react': 1.0.0-beta.18_biqbaboplfbrettd7655fr4n2y
+      jotai: 1.7.6_react@18.2.0
+      micro-stacks: 1.0.0-beta.4
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@babel/template'
+      - '@scure/bip32'
+      - '@scure/bip39'
+      - '@urql/core'
+      - immer
+      - optics-ts
+      - react-query
+      - valtio
+      - wonka
+      - xstate
     dev: false
 
   /@micro-stacks/react/1.0.0-beta.18:
@@ -7203,6 +7258,43 @@ packages:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /jotai/1.7.6_react@18.2.0:
+    resolution: {integrity: sha512-D3R5f6OvwUPUyTPQY3wGP800nb6bDEOl/mqftjxg3gcHVITeFcldr9W9IBK+gXsow357vhNXuci/LfD+rl92PA==}
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      '@babel/core': '*'
+      '@babel/template': '*'
+      '@urql/core': '*'
+      immer: '*'
+      optics-ts: '*'
+      react: '>=16.8'
+      react-query: '*'
+      valtio: '*'
+      wonka: '*'
+      xstate: '*'
+    peerDependenciesMeta:
+      '@babel/core':
+        optional: true
+      '@babel/template':
+        optional: true
+      '@urql/core':
+        optional: true
+      immer:
+        optional: true
+      optics-ts:
+        optional: true
+      react-query:
+        optional: true
+      valtio:
+        optional: true
+      wonka:
+        optional: true
+      xstate:
+        optional: true
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
