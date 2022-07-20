@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@micro-stacks/client": "1.0.0-beta.13",
-    "@micro-stacks/react": "1.0.0-beta.18",
-    "micro-stacks": "^1.0.0-beta.7",
+    "@micro-stacks/client": "1.0.0",
+    "@micro-stacks/react": "1.0.0",
+    "micro-stacks": "^1.0.0",
     "preact": "^10.10.0"
   },
   "devDependencies": {

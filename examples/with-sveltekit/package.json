@@ -28,8 +28,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@micro-stacks/svelte": "^1.0.0-beta.6",
-    "micro-stacks": "^1.0.0-beta.7",
+    "@micro-stacks/svelte": "^1.0.0",
+    "micro-stacks": "^1.0.0",
     "svelte-kit-cookie-session": "^3.0.6"
   }
 }

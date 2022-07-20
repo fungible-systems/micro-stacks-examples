@@ -17,9 +17,9 @@
     "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
-    "@micro-stacks/client": "^1.0.0-beta.13",
-    "@micro-stacks/solidjs": "^1.0.0-beta.3",
-    "micro-stacks": "^1.0.0-beta.7",
+    "@micro-stacks/client": "^1.0.0",
+    "@micro-stacks/solidjs": "^1.0.0",
+    "micro-stacks": "^1.0.0",
     "solid-js": "^1.4.7"
   },
   "prettier": {

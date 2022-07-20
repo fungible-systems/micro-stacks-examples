@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@micro-stacks/client": "1.0.0-beta.13",
-    "@micro-stacks/jotai": "1.0.0-beta.2",
-    "@micro-stacks/react": "1.0.0-beta.18",
+    "@micro-stacks/client": "1.0.0",
+    "@micro-stacks/jotai": "1.0.0",
+    "@micro-stacks/react": "1.0.0",
     "jotai": "^1.7.6",
-    "micro-stacks": "^1.0.0-beta.7",
+    "micro-stacks": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

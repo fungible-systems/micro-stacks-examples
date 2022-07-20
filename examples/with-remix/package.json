@@ -6,14 +6,14 @@
     "dev": "remix dev"
   },
   "dependencies": {
-    "@micro-stacks/client": "1.0.0-beta.13",
-    "@micro-stacks/react": "1.0.0-beta.18",
+    "@micro-stacks/client": "1.0.0",
+    "@micro-stacks/react": "1.0.0",
     "@remix-run/node": "^1.6.5",
     "@remix-run/react": "^1.6.5",
     "@remix-run/server-runtime": "^1.6.5",
     "@remix-run/vercel": "^1.6.5",
     "@vercel/node": "^2.4.4",
-    "micro-stacks": "^1.0.0-beta.7",
+    "micro-stacks": "^1.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
